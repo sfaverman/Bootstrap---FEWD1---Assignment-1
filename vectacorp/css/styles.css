@@ -1,0 +1,32 @@
+div[data-spy="scroll"] {
+    position: relative;
+    height:300px;
+    overflow-y: scroll;
+}
+footer {
+    text-align: center;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+header img {
+   width: 60%;
+   height: auto;
+}
+
+@media (min-width: 768px) {
+    body {
+    position: relative;
+    }
+    header {
+    margin-top: 20px;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    left: 10px;
+    z-index: 5;
+    padding: 0;
+    }
+}
